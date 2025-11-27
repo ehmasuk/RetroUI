@@ -40,6 +40,10 @@ export const componentConfig: {
       name: "button",
       filePath: "components/retroui/Button.tsx",
     },
+    calendar: {
+      name: "calendar",
+      filePath: "components/retroui/Calendar.tsx",
+    },
     card: {
       name: "card",
       filePath: "components/retroui/Card.tsx",
@@ -48,6 +52,10 @@ export const componentConfig: {
       name: "areaChart",
       filePath: "components/retroui/charts/AreaChart.tsx",
     },
+    breadcrumb: {
+      name: "breadcrumb",
+      filePath: "components/retroui/Breadcrumb.tsx",
+    },
     barChart: {
       name: "barChart",
       filePath: "components/retroui/charts/BarChart.tsx",
@@ -55,6 +63,14 @@ export const componentConfig: {
     checkbox: {
       name: "checkbox",
       filePath: "components/retroui/Checkbox.tsx",
+    },
+    command: {
+      name: "command",
+      filePath: "components/retroui/Command.tsx",
+    },
+    "context-menu": {
+      name: "context-menu",
+      filePath: "components/retroui/ContextMenu.tsx",
     },
     dialog: {
       name: "dialog",
@@ -132,18 +148,6 @@ export const componentConfig: {
     tooltip: {
       name: "tooltip",
       filePath: "components/retroui/Tooltip.tsx",
-    },
-    breadcrumb: {
-      name: "breadcrumb",
-      filePath: "components/retroui/Breadcrumb.tsx",
-    },
-    command: {
-      name: "command",
-      filePath: "components/retroui/Command.tsx",
-    },
-    "context-menu": {
-      name: "context-menu",
-      filePath: "components/retroui/ContextMenu.tsx",
     },
   },
   examples: {
