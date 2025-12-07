@@ -8,6 +8,8 @@ export async function GET(request: NextRequest) {
 
   const rssXml = await generateRegistryRssFeed({
     baseUrl,
+    componentsUrl: "/docs/components",
+    excludeItemTypes: ["registry:block", "registry:style", "registry:lib"],
     rss: {
       title: "@retroui",
       description: "Subscribe to @retroui updates",
@@ -16,7 +18,7 @@ export async function GET(request: NextRequest) {
     },
     github: {
       owner: "Logging-Studio",
-      repo: "https://github.com/Logging-Studio/RetroUI",
+      repo: "RetroUI",
       token: process.env.GITHUB_TOKEN,
     },
   });
