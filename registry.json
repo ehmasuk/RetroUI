@@ -152,6 +152,19 @@
       ]
     },
     {
+      "name": "breadcrumb",
+      "type": "registry:component",
+      "title": "Breadcrumb",
+      "dependencies": ["@radix-ui/react-slot"],
+      "files": [
+        {
+          "path": "components/retroui/Breadcrumb.tsx",
+          "target": "components/retroui/Breadcrumb.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
       "name": "card",
       "type": "registry:component",
       "title": "Card",
