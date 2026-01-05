@@ -51,7 +51,7 @@ export default async function page({ params }: IProps) {
     <>
       {/* Main Content */}
       <div className="flex-1 space-y-12 py-12 px-4 max-w-2xl mx-auto w-full">
-        <div className="border-b border-black pb-6">
+        <div className="border-b pb-6">
           <Text as="h1" className="text-4xl">
             {doc.title}
           </Text>

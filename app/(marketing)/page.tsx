@@ -268,7 +268,7 @@ export default async function Home() {
             passHref
           >
             <Button
-              className="bg-white border-black shadow-black text-black"
+              className="bg-background"
               variant="outline"
             >
               <GithubIcon size="16" className="mr-2" />
@@ -277,7 +277,7 @@ export default async function Home() {
           </Link>
           <Link href="https://discord.gg/Jum3NJxK6Q" target="_blank" passHref>
             <Button
-              className="bg-white border-black shadow-black text-black"
+              className="bg-background"
               variant="outline"
             >
               <MessageCircle size="16" className="mr-2" />
