@@ -1,4 +1,3 @@
-import { table } from "console";
 import { lazy } from "react";
 
 export const componentConfig: {
@@ -160,6 +159,10 @@ export const componentConfig: {
     tooltip: {
       name: "tooltip",
       filePath: "components/retroui/Tooltip.tsx",
+    },
+    empty: {
+      name: "empty",
+      filePath: "components/retroui/Empty.tsx",
     },
   },
   examples: {
@@ -715,6 +718,11 @@ export const componentConfig: {
       name: "typography-p",
       filePath: "preview/components/typography-p.tsx",
       preview: lazy(() => import("@/preview/components/typography-p")),
+    },
+    "empty-style-default": {
+      name: "empty-style-default",
+      filePath: "preview/components/empty-style-default.tsx",
+      preview: lazy(() => import("@/preview/components/empty-style-default"))
     },
   },
 };
