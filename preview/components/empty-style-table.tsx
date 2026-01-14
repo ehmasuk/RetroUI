@@ -24,7 +24,7 @@ export default function TableEmpty() {
               <Empty className="border-none shadow-none">
                 <Empty.Content>
                   <Empty.Icon className="size-8" />
-                  <Empty.Title className="md:text-md">Empty</Empty.Title>
+                  <Empty.Title className="md:text-base">Empty</Empty.Title>
                   <Empty.Description>
                     Get started by creating your first invoice.
                   </Empty.Description>
